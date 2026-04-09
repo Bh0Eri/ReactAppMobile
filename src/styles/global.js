@@ -7,9 +7,9 @@ export const theme = {
         textSub: '#64748B',
         border: '#CBD5E1',
         priority: {
-            Alta: '#EF4444',
-            Média: '#F59E0B',
-            Baixa: '#10B981',
+            HIGH: '#EF4444',
+            MED: '#F59E0B',
+            LOW: '#10B981',
         }
     }
 };

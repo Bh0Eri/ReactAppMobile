@@ -25,10 +25,10 @@ export default function TaskCard({item, onDelete, onEdit}){
 
             <View style={styles.actions}>
                 <TouchableOpacity onPress = { onEdit }>
-                    <Text style={styles.icon}></Text>
+                    <Text style={styles.icon}>Edit</Text>
                 </TouchableOpacity>
                 <TouchableOpacity onPress = { onDelete }>
-                    <Text style={styles.icon}></Text>
+                    <Text style={styles.icon}>Delete</Text>
                 </TouchableOpacity>
             </View>
         </View>
